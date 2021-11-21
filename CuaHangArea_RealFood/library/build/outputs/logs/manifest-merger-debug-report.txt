@@ -1,27 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
-INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
-INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
+ADDED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
+INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
+INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
 	package
-		ADDED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:11-41
-		INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-		INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		ADDED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:11-41
+		INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
+		ADDED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:1:1-3:12
 application
-ADDED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:2:5-19
+ADDED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:2:5-19
 uses-sdk
-INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-		ADDED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-		INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		ADDED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-		ADDED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
-		INJECTED from C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		ADDED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+		INJECTED from C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml

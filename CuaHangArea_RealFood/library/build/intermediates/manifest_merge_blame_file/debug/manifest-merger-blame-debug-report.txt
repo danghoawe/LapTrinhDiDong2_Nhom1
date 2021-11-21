@@ -4,11 +4,11 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="19"
-6-->C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+6-->C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="29" />
-7-->C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
+7-->C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml
 8
 9    <application />
-9-->C:\code\DiDong2\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:2:5-19
+9-->C:\code\LapTrinhDiDong2_Nhom1\CuaHangArea_RealFood\library\src\main\AndroidManifest.xml:2:5-19
 10
 11</manifest>

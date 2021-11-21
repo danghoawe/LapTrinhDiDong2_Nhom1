@@ -206,6 +206,7 @@
                    android:textSize="15dp" />
            </LinearLayout>
        </LinearLayout>
+
        <LinearLayout
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
@@ -328,22 +329,13 @@
            android:id="@+id/btnXacNhanCoc"
            style="@style/Button_v2_Green"
            android:text="Xác nhận cọc"
-           android:textSize="16dp" android:visibility="gone"/>
+           android:textSize="16dp"/>
        <android.widget.Button
            android:id="@+id/btnHuyDonHang"
            style="@style/Button_v2_Red"
            android:text="Hủy đơn hàng"
            android:textSize="16dp"/>
-       <android.widget.Button
-           android:id="@+id/btnXacNhanTraTien"
-           style="@style/Button_v2_Green"
-           android:text="Đã nhận tiền hàng"
-           />
-       <android.widget.Button
-           android:id="@+id/btnXacNhanHoanHang"
-           style="@style/Button_v2_Green"
-           android:text="Đã nhận lại hàng"
-           />
+
        <android.widget.Button
            android:id="@+id/btnHoanTac1"
            style="@style/Button_v2_Blue"
@@ -413,6 +405,7 @@
                android:textSize="16dp" />
        </LinearLayout>
        <LinearLayout
+           android:visibility="gone"
            android:id="@+id/lnShipper"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
@@ -440,42 +433,30 @@
                android:text="Chọn shipper giao hàng"
                android:textSize="16dp" />
        </LinearLayout>
+       <android.widget.Button
+           android:id="@+id/btnDaGiaoHang"
+           style="@style/Button_v2_Blue"
+           android:layout_weight="1"
+           android:text="Đã Giao Hàng Cho Shipper"
+           android:textSize="16dp" />
+
        <LinearLayout
-           android:id="@+id/lnXacNhangShipper"
+           android:id="@+id/lnXacNhanGiaoHang"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:orientation="vertical">
-
            <android.widget.Button
-               android:id="@+id/btnDaGiaoHangChoShipper"
-               style="@style/Button_v2_Blue"
+               android:id="@+id/btnGiaoHangThanhCong"
+               style="@style/Button_v2_Green"
                android:layout_weight="1"
-               android:text="Đã Giao Hàng"
+               android:text="Giao Hàng thành công"
                android:textSize="16dp" />
-       </LinearLayout>
-       <LinearLayout
-
-           android:id="@+id/lnBaoCaoShipper"
-           android:layout_width="match_parent"
-           android:layout_height="18dp"
-           android:layout_marginTop="10dp"
-           android:gravity="center"
-           android:orientation="horizontal"
-           >
-           <ImageView
-               android:layout_width="24dp"
-               android:layout_height="24dp"
-               android:src="@drawable/sheildfrontgradient" />
-
-           <TextView
-               android:id="@+id/txtBaoCaoShipper"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:gravity="center"
-               android:text="Report Shipper ?"
-               android:textColor="#DA1D39"
-               android:textSize="14dp" />
-
+           <android.widget.Button
+               android:id="@+id/btnGiaoHangThatBai"
+               style="@style/Button_v2_Red"
+               android:layout_weight="1"
+               android:text="Giao Hàng thất bại"
+               android:textSize="16dp" />
        </LinearLayout>
    </LinearLayout>
     </androidx.cardview.widget.CardView>
