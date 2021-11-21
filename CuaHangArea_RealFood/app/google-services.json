@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "921899938587",
+    "firebase_url": "https://sharp-memento-321320-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sharp-memento-321320",
+    "storage_bucket": "sharp-memento-321320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921899938587:android:390088bbdb94cf1aacd9be",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921899938587-7bcup32i0spfkrgobcnkajlcvjmm8f9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrSB-Sgdvuqjp0JlmUTawZ18QKPlioZ5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921899938587-7bcup32i0spfkrgobcnkajlcvjmm8f9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921899938587:android:3096014462922f76acd9be",
+        "android_client_info": {
+          "package_name": "com.example.cuahangarea_realfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921899938587-7bcup32i0spfkrgobcnkajlcvjmm8f9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrSB-Sgdvuqjp0JlmUTawZ18QKPlioZ5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921899938587-7bcup32i0spfkrgobcnkajlcvjmm8f9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

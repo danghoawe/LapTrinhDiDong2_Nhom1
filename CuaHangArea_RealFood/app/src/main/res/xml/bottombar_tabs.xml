@@ -1,0 +1,24 @@
+
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home"
+        title="Home"
+        barColorWhenSelected="#5D4037" />
+    <tab
+        id="@+id/tab_store"
+        icon="@drawable/ic_store"
+        title="Cửa hàng"
+        barColorWhenSelected="#027DB5" />
+    <tab
+        id="@+id/tab_notification"
+        icon="@drawable/ic_notification"
+        title="Thông báo"
+        barColorWhenSelected="#AA1849"
+/>
+    <tab
+        id="@+id/tab_setting"
+        icon="@drawable/ic_setting"
+        title="Cài đặt"
+        barColorWhenSelected="#008175" />
+</tabs>

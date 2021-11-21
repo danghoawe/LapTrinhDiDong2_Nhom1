@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SettingFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:background="#7EBDBDBD"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phương thức thánh toán"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtTaiKhoanNganHang"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/baseline_credit_card_black_24dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản ngân hàng"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:background="#7EBDBDBD"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bảo mật"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtDoiMatKhau"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_outline_vpn_key_24"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi mật khẩu"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:background="#7EBDBDBD"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin khác"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtTroGiup"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trợ giúp"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtRiengTu"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Riêng tư"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtDichVuVaChinhSach"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_assignment_24"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dịch vụ và chính sách"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <android.widget.Button
+        style="@style/Button_v2_Green"
+        android:id="@+id/btnDangXuat"
+        android:text="Đăng xuất"
+        />
+</LinearLayout>

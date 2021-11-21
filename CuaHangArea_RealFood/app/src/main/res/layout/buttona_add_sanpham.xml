@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/button_background_green"
+    android:text="Thêm sản phẩm mới"
+    android:textAllCaps="false"
+    android:layout_height="50dp"
+    android:textSize="17dp"
+    android:textColor="@color/white"
+    android:id="@+id/btnThemSanPham"
+    />

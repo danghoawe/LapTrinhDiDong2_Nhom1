@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Edittext_v1">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >60dp</item>
+        <item name="android:layout_marginLeft" >20dp</item>
+        <item name="android:layout_marginTop" >20dp</item>
+        <item name="android:layout_marginRight" >20dp</item>
+        <item name="android:paddingLeft" >20dp</item>
+        <item name="android:background" >@drawable/edittext_background_v1</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize" >27dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:textColor" >@color/black</item>
+        <item name="android:textAlignment" >center</item>
+    </style>
+    <style name="Title_Label">
+        <item name="android:textSize" >26dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:textColor" >@color/black</item>
+        <item name="android:gravity" >left</item>
+        <item name="android:padding" >10dp</item>
+    </style>
+    <style name="Title_Label_padding5">
+        <item name="android:textSize" >26dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:textColor" >@color/black</item>
+        <item name="android:gravity" >left</item>
+        <item name="android:padding" >5dp</item>
+    </style>
+    <style name="Title_Label_green">
+        <item name="android:textSize" >26dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:textColor" >#1D8821</item>
+        <item name="android:gravity" >left</item>
+        <item name="android:padding" >5dp</item>
+    </style>
+    <style name="Title_Label_Normal">
+        <item name="android:textSize" >26dp</item>
+        <item name="android:textColor" >@color/black</item>
+        <item name="android:gravity" >left</item>
+        <item name="android:padding" >10dp</item>
+    </style>
+    <style name="Title_V2">
+        <item name="android:textSize" >14dp</item>
+        <item name="android:textColor" >@color/black</item>
+        <item name="android:textAlignment" >center</item>
+    </style>
+    <style name="Title_V3">
+        <item name="android:textSize" >30dp</item>
+        <item name="android:textColor" >@color/black</item>
+        <item name="android:textAlignment" >center</item>
+    </style>
+    <style name="Button_v1">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >56dp</item>
+        <item name="android:layout_marginLeft" >20dp</item>
+        <item name="android:layout_marginTop" >30dp</item>
+        <item name="android:layout_marginRight" >20dp</item>
+        <item name="android:background" >@drawable/button_background_red</item>
+        <item name="android:textAllCaps" >false</item>
+        <item name="android:textColor" >@color/white</item>
+        <item name="android:textSize" >16dp</item>
+    </style><style name="Button_v2_Green">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >50dp</item>
+        <item name="android:layout_margin" >10dp</item>
+        <item name="android:background" >@drawable/button_background_green</item>
+        <item name="android:textAllCaps" >false</item>
+        <item name="android:textColor" >@color/white</item>
+        <item name="android:textSize" >17dp</item>
+    </style>
+        <style name="Button_v2_Blue">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >50dp</item>
+        <item name="android:layout_margin" >10dp</item>
+        <item name="android:background" >@drawable/button_background_blue</item>
+        <item name="android:textAllCaps" >false</item>
+        <item name="android:textColor" >@color/white</item>
+        <item name="android:textSize" >17dp</item>
+    </style>
+
+    <style name="Button_v2_Red">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height" >50dp</item>
+        <item name="android:layout_margin" >10dp</item>
+        <item name="android:background" >@drawable/button_background_red</item>
+        <item name="android:textAllCaps" >false</item>
+        <item name="android:textColor" >@color/white</item>
+        <item name="android:textSize" >17dp</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">#FFC107</item>
+    </style>
+    <style name="Button_Home_Cardview" >
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="margin_10dp" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="button_text" >
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="MyActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyActionBarTitle</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="MyActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">15dp</item>
+        <item name="cornerSizeBottomLeft">15dp</item>
+    </style>
+</resources>

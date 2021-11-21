@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CuaHangArea_RealFood</string>
+    <string name="taiikhon">Email</string>
+    <string name="hoten">Họ tên</string>
+    <string name="diaChi">Địa Chỉ</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="cmnd">Số CMND</string>
+    <string name="tencuahang">Tên Cửa Hàng</string>
+    <string name="matkhau">Mật Khẩu</string>
+    <string name="quenmatkhau">Quên mật khẩu?</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="rematkhau">Nhập lại Mật Khẩu</string>
+    <string name="dangky">Đăng ký</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="g_i_mail">Gửi Mail</string>
+    <string-array name="trangthaidonhang_Bep">
+        <item>All</item>
+        <item>Đang chuẩn bị</item>
+        <item>Đã đặt thời gian</item>
+        <item>Đã chuẩn bị xong </item>
+    </string-array>
+
+    <string-array name="trangthaidonhang_dsDonhang">
+        <item>All</item>
+        <item>Chờ xác nhận cọc</item>
+        <item>Đã hủy đơn hàng</item>
+        <item>Đã giao cho bếp</item>
+        <item>Đang chuẩn bị</item>
+        <item>Bếp hủy đơn hàng</item>
+        <item>Đã chuẩn bị xong </item>
+        <item>Đang giao hàng</item>
+        <item>Đơn hàng đã hoàn thành</item>
+        <item>Đơn hàng đã trả hàng</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

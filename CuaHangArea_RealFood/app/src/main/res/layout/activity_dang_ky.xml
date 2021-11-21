@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear1"
+    tools:context=".screen.LoginActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+                android:textColor="@color/main_color"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="Đăng ký tài khoản"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_email_black_24dp"
+            android:id="@+id/edtEmail"
+            style="@style/Edittext_v1"
+            android:hint="@string/taiikhon"
+            />
+        <EditText android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_supervised_user_circle_black_24dp"
+            android:id="@+id/edtHoten"
+            style="@style/Edittext_v1"
+            android:hint="@string/hoten"
+            />
+        <EditText android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_credit_card_black_24dp"
+            android:id="@+id/edtIDCard"
+            style="@style/Edittext_v1"
+            android:hint="Số CMND/CCCD"
+            />
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_sensor_window_black_24dp"
+            android:id="@+id/edtTenCuaHang"
+            style="@style/Edittext_v1"
+            android:hint="@string/tencuahang"
+            />
+
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_location_on_black_24dp"
+            android:id="@+id/edtDiaChi"
+            style="@style/Edittext_v1"
+            android:hint="@string/diaChi"
+            />
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_phone_black_24dp"
+            android:id="@+id/edtSoDT"
+            style="@style/Edittext_v1"
+            android:hint="@string/sdt"
+            />
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_password_black_24dp"
+            android:id="@+id/edtMatKhau"
+            style="@style/Edittext_v1"
+            android:hint="@string/matkhau"
+            />
+        <EditText
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_password_black_24dp"
+            android:id="@+id/edtNhapLaiMatKhau"
+            style="@style/Edittext_v1"
+            android:hint="@string/rematkhau"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xác thực tài khoản"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tải lên 2 mặt CCCD/CMND để đội ngũ kỹ thuật viên xét duyệt!"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mặt trước"/>
+                <ImageView
+                    android:layout_margin="10dp"
+
+                    android:id="@+id/imgCMND_Truoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/idtruoc"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mặt sau"/>
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/imgCMND_Sau"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/idsau"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnDangKy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_background_red"
+            android:text="@string/dangky"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/txtDangNhap"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:autoLink="all"
+            android:gravity="center"
+            android:linksClickable="false"
+            android:selectAllOnFocus="false"
+            android:text="@string/dangnhap"
+            android:textColor="@color/color_link" />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

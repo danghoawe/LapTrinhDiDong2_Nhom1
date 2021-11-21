@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:id="@+id/lnLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- TODO: Update blank fragment layout -->
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp">
+                    <ImageView
+                        android:id="@+id/imgWallPaper"
+                        android:layout_width="match_parent"
+                        android:scaleType="centerCrop"
+                        android:layout_height="200dp"
+                        android:src="@drawable/background_store" />
+                    <android.widget.Button
+
+                        android:id="@+id/btnEditWallPaper"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/ic_baseline_image_24"
+                        android:src="@drawable/ic_baseline_add_a_photo_50"
+                        android:text="Chỉnh sửa"
+                        android:textAllCaps="false" />
+
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-120dp"
+                    android:orientation="horizontal">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/profile_image"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/picturefrontpremium"
+                            app:civ_border_color="@color/transparent"
+                            app:civ_border_width="2dp" />
+                        <ImageButton
+
+                            android:id="@+id/btnEditAvatar"
+                            android:layout_gravity="bottom|right"
+                            android:background="@color/transparent"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:src="@drawable/camera"/>
+                    </FrameLayout>
+                    <EditText
+                        android:id="@+id/edtTenCuaHang"
+                        style="@style/Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="6dp"
+                        android:text=""
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#050505" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Số điện thoại"
+                    >
+                    <EditText
+                        android:id="@+id/edtSoDT"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_margin="10dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Họ tên chủ cửa hàng"
+                    >
+                    <EditText
+                        android:id="@+id/edtHotenChu"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_margin="10dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Số CMND"
+                    >
+                    <EditText
+                        android:id="@+id/edtSoCMND"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_margin="10dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    >
+                    <EditText
+                        android:editable="false"
+                        android:id="@+id/edtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_margin="10dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Địa Chỉ"
+                    >
+                    <EditText
+                        android:id="@+id/edtDiaChi"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_margin="10dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Thông tin chi tiết">
+                    <EditText
+                        android:id="@+id/edtThongTinChiTiet"
+                        android:lines="6"
+                        android:maxLines="10"
+                        android:gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView
+                    android:layout_weight="1"
+                    style="@style/Title_Label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thời gian hoạt động :"
+                    android:textSize="16dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_background_v1"
+                        >
+                        <com.github.florent37.singledateandtimepicker.SingleDateAndTimePicker
+                            android:id="@+id/dtpGioBatDau"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            app:picker_displayDays="false"
+                            app:picker_displayDaysOfMonth="false"
+                            app:picker_displayHours="true"
+                            app:picker_displayMinutes="true"
+                            app:picker_displayMonth="false"
+                            app:picker_displayMonthNumbers="false"
+                            app:picker_displayYears="false"
+                            app:picker_itemSpacing="6dp"
+                            app:picker_selectorColor="@android:color/transparent"
+                            app:picker_textSize="15dp"
+                            app:picker_visibleItemCount="2" />
+                    </FrameLayout>
+                    <TextView
+
+                        style="@style/Title_Label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Đến :"
+                        android:textSize="16dp" />
+                    <FrameLayout
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_background_v1"
+                        >
+                        <com.github.florent37.singledateandtimepicker.SingleDateAndTimePicker
+                            android:id="@+id/dtpGioKetThuc"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            app:picker_itemSpacing="6dp"
+                            app:picker_selectorColor="@android:color/transparent"
+                            app:picker_visibleItemCount="2"
+                            app:picker_displayMinutes="true"
+                            app:picker_textSize="15dp"
+                            app:picker_displayYears="false"
+                            app:picker_displayDaysOfMonth="false"
+                            app:picker_displayMonthNumbers="false"
+                            app:picker_displayDays="false"
+                            app:picker_displayMonth="false"
+                            />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.widget.Button xmlns:android="http://schemas.android.com/apk/res/android"
+                        style="@style/Button_v2_Green"
+                        android:layout_weight="2"
+                        android:text="Lưu thông tin"
+                        android:id="@+id/btnLuuThongTin"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/progessbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

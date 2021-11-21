@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/pullToRefesh"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.ThongKeActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progessbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/lnLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.widget.Button
+                android:textAllCaps="false"
+                android:text="Chọn ngày bắt đầu"
+                android:layout_weight="1"
+                android:id="@+id/btnNgayBatDau"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_background_v1"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="đến"/>
+            <android.widget.Button
+                android:textAllCaps="false"
+                android:text="Chọn ngày kết thúc"
+                android:layout_weight="1"
+                android:id="@+id/btnNgayKetThuc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_background_v1"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/moneyicon"/>
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tổng doanh thu : "
+                android:textSize="19dp" />
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_green"
+                android:id="@+id/txtTongDoanhThu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="19dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tổng số đơn hàng : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txtTongDonHang"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đã giao thành công : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txtDaGiaoThanhCong"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chờ chuyển tiền đặt cọc : "
+                android:textSize="16dp" />
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:id="@+id/txtChoChuyenCoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đang xử lí : "
+                android:textSize="16dp" />
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:id="@+id/txtDangXuLy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đang giao hàng : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txtDangGiaoHang"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giao hàng thất bại : "
+                android:textSize="16dp" />
+            <TextView
+                android:layout_weight="1"
+                style="@style/Title_Label_padding5"
+                android:id="@+id/txtGiaoHangKhongThanhCong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+    </FrameLayout>
+</ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

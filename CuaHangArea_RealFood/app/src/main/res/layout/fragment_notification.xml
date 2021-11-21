@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.NotificationFragment">
+
+    <TextView
+        android:textStyle="bold"
+        android:background="#AA1849"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông báo"
+        android:gravity="center"
+        android:textSize="19dp"
+        android:padding="10dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/lnNoti"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.widget.Button xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/button_background_gray"
+                android:text="Đánh dấu là đã đọc"
+                android:textAllCaps="false"
+                android:layout_height="40dp"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:id="@+id/btnDanhDauLaDaDoc"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rcNotification"/>
+                <ProgressBar
+                    android:id="@+id/pdLoad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtAlert"
+            android:visibility="gone"
+            android:textSize="20dp"
+            android:text="Bạn chua có thông báo nào cả :3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+
+
+</LinearLayout>

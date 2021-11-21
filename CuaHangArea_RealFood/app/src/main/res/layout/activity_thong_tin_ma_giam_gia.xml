@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screen.ThongTinMaGiamGiaActivity">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_background_v1"
+
+        >
+
+        <Spinner
+            android:id="@+id/spDSsanPham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+             />
+    </FrameLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã giảm giá"
+
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp">
+
+        <EditText
+            android:id="@+id/edtMaGiamGia"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background_v1"
+            android:textSize="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <RadioGroup
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radGiamTheoGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giảm theo giá"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_marginLeft="10dp"
+            android:id="@+id/radGiamTheoPhanTram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giảm Phần Trăm"
+            />
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiplGiamTheoPhanTram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giảm theo % sản phẩm"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:suffixText="%">
+
+        <EditText
+            android:id="@+id/edtGiamPhanTram"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background_v1"
+            android:textSize="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiplGiamTheoGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tiền giảm"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:suffixText="VND">
+
+        <EditText
+            android:id="@+id/edtSoTienGiam"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background_v1"
+            android:textSize="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:paddingLeft="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hạn sử dụng"
+        android:textSize="14dp" />
+    <FrameLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background_v1"
+        >
+        <com.github.florent37.singledateandtimepicker.SingleDateAndTimePicker
+            android:id="@+id/single_day_picker"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            app:picker_itemSpacing="6dp"
+            app:picker_selectorColor="@android:color/transparent"
+            app:picker_dayCount="31"
+            app:picker_mustBeOnFuture="true"
+            app:picker_visibleItemCount="2"
+            app:picker_displayMinutes="false"
+            app:picker_displayHours="false"
+            app:picker_displayYears="true"
+            app:picker_textSize="15dp"
+            />
+    </FrameLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnLuuMaGiamGia"
+        android:text="Lưu mã giảm giá"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Button_v2_Green"/>
+    <android.widget.Button
+        android:visibility="gone"
+        android:id="@+id/btnXoa"
+        android:text="Xóa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Button_v2_Red"/>
+</LinearLayout>

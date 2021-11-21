@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screen.LoginActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:fontFamily="sans-serif"
+        android:text="Đặt lại mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Title_V3"/>
+    <TextView
+        android:fontFamily="sans-serif"
+        android:text="Vui lòng nhập email của bạn để nhận được một
+liên kết để tạo mật khẩu mới qua email !"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Title_V2"/>
+    <EditText
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/baseline_email_black_24dp"
+        android:id="@+id/edtEmail"
+        style="@style/Edittext_v1"
+        android:hint="@string/taiikhon"
+        />
+
+    <Button
+        android:id="@+id/btnGuiMail"
+        style="@style/Button_v1"
+        android:text="@string/g_i_mail"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:autoLink="all"
+        android:gravity="center"
+        android:linksClickable="false"
+        android:selectAllOnFocus="false"
+        android:text="@string/dangnhap"
+        android:textColor="@color/color_link" />
+</LinearLayout>

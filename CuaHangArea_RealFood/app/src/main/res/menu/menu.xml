@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:title="Thêm sản phẩm"
+    android:id="@+id/mnThemSanPham"
+    app:showAsAction="collapseActionView"
+    android:icon="@drawable/baseline_add_box_black_24dp" ></item>
+
+    <item
+        android:title="Thêm danh mục"
+        android:id="@+id/mnThemDanhMuc"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/baseline_add_box_black_24dp" ></item>
+    <item
+        android:id="@+id/menuItem_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnRefesh"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="Search"
+        app:showAsAction="always" />
+</menu>
